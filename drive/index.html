@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolt Drive Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        #chatbot {
+            width: 100%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        #chatbot-header {
+            background-color: #0073e6;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+            font-size: 18px;
+        }
+        #chatbot-content {
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+            border-bottom: 1px solid #ccc;
+        }
+        #chatbot-footer {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        input {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            margin-left: 10px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <div id="chatbot">
+        <div id="chatbot-header">Wolt Drive Chatbot</div>
+        <div id="chatbot-content">
+            <p><strong>Üdvözlünk! 😊</strong></p>
+            <p>A chatbot tájékoztató jellegű. További kérdések esetén fordulj a Wolt Drive csapathoz: <a href="mailto:drive.hungary@wolt.com">drive.hungary@wolt.com</a></p>
+        </div>
+        <div id="chatbot-footer">
+            <input type="text" placeholder="Írj ide...">
+            <button>Küldés</button>
+        </div>
+    </div>
+</body>
+</html>
